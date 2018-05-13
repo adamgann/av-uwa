@@ -1,0 +1,13 @@
+*.m~
+*.mat
+latex/*.aux
+latex/*.bbl
+latex/*.blg
+latex/*.log
+latex/*.synctex.gz
+latex/IEEE_SAM/*.aux
+latex/IEEE_SAM/*.bbl
+latex/IEEE_SAM/*.blg
+latex/IEEE_SAM/*.log
+latex/IEEE_SAM/*.synctex.gz
+
