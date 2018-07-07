@@ -9,6 +9,8 @@ This software is free to use and modify (see LICENSE). If helpful in your own wo
 	title={Short Data Record Filtering for Adaptive Underwater Acoustic Communications},
 	author={Gannon, Adam and Balakrishnan, Sarankumar and Sklivanitis, George and Pados, Dimitris A. and Batalama, Stella N.},
 	booktitle={IEEE Sensor Array and Multichannel Signal Processing Workshop (SAM)},
+	month={july},
+	address={Sheffield, England}
 	year={2018},
 }
 ```
