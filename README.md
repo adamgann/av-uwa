@@ -2,8 +2,9 @@
 
 Simulation code for proof of concept adaptive spread-spectrum underwater communications using auxiliary-vector filtering. Includes an [underwater channel simulator](http://millitsa.coe.neu.edu/?q=projects) developed by P. Qarabaqi and M. Stojanovic at Northeastern to generate time-varying channel realizations and a [library to generate auxiliary-vector sequences](http://www.eng.buffalo.edu/~pmarkopo/av.php) from P. Markopoulos at SUNY Buffalo. 
 
-This software is free to use and modify (see LICENSE). If helpful in your own work, please cite 
+This software is free to use and modify (see LICENSE). Please include credit to the above authors of the included software libraries and maintain links to their websites in any derivative work. 
 
+If helpful in your own research, please cite 
 ```
 @inproceedings{gannon2018,
 	title={Short Data Record Filtering for Adaptive Underwater Acoustic Communications},
@@ -15,8 +16,9 @@ This software is free to use and modify (see LICENSE). If helpful in your own wo
 }
 ```
 
+
 ## Dependencies
-Requires MATLAB. 
+Requires MATLAB. Tested on 2011b and 2017a. The simulation will use the DSP toolbox, if available, but should also work without it. 
 
 ## Scripts 
 
