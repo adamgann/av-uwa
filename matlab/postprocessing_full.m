@@ -1,27 +1,26 @@
 % postprocessing_full.m
-% 
-% Generate Fig 5, showing the SINR and chosen rate over time. 
-% 
-% Adam Gannnon, SUNY Buffalo, 2018. 
+%
+% Generate Fig 5, showing the SINR and chosen rate over time.
+%
+% Adam Gannnon, SUNY Buffalo, 2018.
 
 clear variables;
 close all;
 clc;
 
-%% Parameters 
+%% Parameters
 
 fixed24Name = 'workspace_fixedL24.mat';
 adaptive_name = 'workspace_adaptiveL.mat';
 
 
-%% Load the 
+%% Load the
 
 load(fixed24Name)
 ber24 = berAv;
 av24 = sinrAv;
 dur24 = packetDurStore;
 rate24  = rateStore;
-errFreeData24 = totalDataTransfer/8;
 
 load(adaptive_name)
 bera = berAv;
@@ -30,7 +29,6 @@ prefilta = sinrPrefilt;
 tveca = sinrTvec;
 dura = packetDurStore;
 ratea = rateStore;
-errFreeDataa = totalDataTransfer/8;
 
 
 %% Plot Data
@@ -75,5 +73,3 @@ lH = legend({'Proposed Adaptive  ','Fixed (L=24)  '},'Orientation','horizontal')
 set(lH,'Interpreter','latex','Fontsize',12);
 set(xH,'Interpreter','latex','Fontsize',14);
 set(yH,'Interpreter','latex','Fontsize',14);
-
-
