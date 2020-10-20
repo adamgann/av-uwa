@@ -1,5 +1,4 @@
 *.m~
-*.mat
 latex/*.aux
 latex/*.bbl
 latex/*.blg
@@ -11,3 +10,5 @@ latex/IEEE_SAM/*.blg
 latex/IEEE_SAM/*.log
 latex/IEEE_SAM/*.synctex.gz
 
+*.mat
+!masterCodeSeq.mat
